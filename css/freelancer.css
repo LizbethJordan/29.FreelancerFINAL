@@ -1,0 +1,84 @@
+
+/* Elementos comunes */
+.t-white{
+	color: white;
+}
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+.mg-1{
+	margin: 1%;
+}
+.mg-5{
+	margin: 5% 0;
+}
+.pl-10{
+	padding: 0 10%;
+}
+a{
+	text-decoration: none!important;
+}
+
+/*INDEX.HTML*/
+nav li:hover{
+	background-color: black!important;
+}
+/*Para arreglar el espacio entre header y navegador*/
+.page-header{
+	margin-top: -2%!important;
+}
+@media (max-width: 768px){
+	.page-header{
+	margin-top: -5%!important;
+}
+}
+/* Estrella títulos */
+.raya-b{
+	width: 5%;
+	border: solid white 1px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.raya-a{
+	width: 5%;
+	border: solid #2c3e50 1px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+/*Backgroun azul*/
+.bg-success{
+	padding: 5% 0!important;
+}
+/*Modificaciones botón Theme*/
+.btn-cambios{
+	color:#2c3e50;
+	border: solid white 1px;
+}
+input{
+	margin: 1% 0;
+}
+/*Footer*/
+footer{
+	background-color: #2c3e50;
+	color: white;
+	padding: 2% 0!important;	
+	margin-top: 2%;
+}
+.red{
+	border-radius: 50%;
+	background-color: #2c3e50;
+	border:solid white 1px;
+}
+.footer{
+	background-color: #233140!important;
+	color: white;
+	padding: 1%;
+}
+/*BLOG.HTML*/
+.blog{
+	width: 300px !important;
+	height: 200px !important;
+}
